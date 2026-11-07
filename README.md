@@ -6,3 +6,5 @@ A tiny public garden the lintrules.sh registry's end-to-end tests plant from.
 - The `weeds` branch adds a rule whose `check.js` never returns. The registry must reject it on its CPU budget.
 
 Don't put anything else here: the tests expect exactly this.
+
+Planted on lintrules.sh by the registry's live checks.
