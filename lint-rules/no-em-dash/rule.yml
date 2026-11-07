@@ -1,0 +1,8 @@
+rule:
+  any:
+    - kind: string_fragment
+      regex: "\u2014"
+    - kind: comment
+      regex: "\u2014"
+    - kind: jsx_text
+      regex: "\u2014"

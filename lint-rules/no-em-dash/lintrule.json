@@ -1,0 +1,22 @@
+{
+  "id": "no-em-dash",
+  "version": "1.1.0",
+  "summary": "No em dash characters in strings, comments, or JSX text.",
+  "guards": "Agents writing UI copy and comments full of em dashes, the tell of machine-written prose.",
+  "languages": [
+    "TypeScript",
+    "Tsx",
+    "JavaScript",
+    "Jsx"
+  ],
+  "linters": [
+    "eslint",
+    "oxlint"
+  ],
+  "message": "Use a comma, colon, period, or parentheses instead of an em dash. Data that needs the character can use the \\u2014 escape.",
+  "license": "MIT",
+  "tags": [
+    "writing",
+    "agent-prose"
+  ]
+}
