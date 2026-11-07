@@ -1,0 +1,11 @@
+{
+  "id": "loops-forever",
+  "version": "1.0.0",
+  "summary": "A rule whose check never returns, for testing the sandbox's CPU budget.",
+  "guards": "Nothing. It exists so the registry proves it stops a check.js that never returns.",
+  "languages": ["TypeScript"],
+  "linters": ["eslint", "oxlint"],
+  "message": "This should never be reported; the rule is rejected before it can run.",
+  "license": "MIT",
+  "tags": ["test"]
+}
